@@ -19,3 +19,7 @@ end
 describe(Recipe) do
 	it { should validate_presence_of(:ingredients)}
 	end
+
+	describe(Recipe) do
+		it { should validate_presence_of(:instructions)}
+	end
