@@ -7,3 +7,7 @@ describe(Recipe)  do
 		expect(recipe.save()).to(eq(false))
 	end
 end
+
+describe(Recipe) do
+	it { should have_and_belong_to_many(:categories)}
+	end
